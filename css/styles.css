@@ -164,8 +164,6 @@ a[title-2] {
   letter-spacing: 0.06em;
   margin-bottom: 30px;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 280px;
   padding-left: 452px;
   padding-right: 452px;
 }
@@ -177,7 +175,6 @@ a[title-2] {
   color: var(--background-color);
   border: 1px solid transparent;
   text-align: center;
-  margin-top: 350px;
   margin-bottom: 200px;
 }
 
@@ -218,6 +215,18 @@ a[title-2] {
 }
 
 /*----------Section Features----------------*/
+.section-features-item {
+  padding-right: 30px
+}
+
+.section-features-item :last-child {
+  padding-right: 0px;
+}
+
+.section-features-item :first-child {
+  padding left: 215px
+}
+
 .section-features-title h3 {
   color: var(--title-color);
   font-weight: 700;
@@ -249,8 +258,15 @@ a[title-2] {
 .section-whadwedo-list {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+
 }
+
+.section-whadwedo-photo-1,
+.section-whadwedo-photo-2 {
+  margin-right: 30px;
+}
+
 
 .section-whadwedo-title {
   font-weight: 700;
@@ -279,6 +295,10 @@ a[title-2] {
   display: flex;
   align-items: center;
   justify-content: center
+}
+
+.section-ourteam-list li {
+  margin-right: 30px;
 }
 
 .section-ourteam-title {
@@ -413,7 +433,7 @@ p {
 .container-7 {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 .new-nav-list li {
@@ -440,7 +460,8 @@ p {
 .container-8 {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  margin-bottom: 56px;
 }
 
 .NEW-nav-link {
@@ -460,11 +481,16 @@ p {
   background-color: var(--background-color);
 }
 
+
 .container-9 {
   display: flex;
   flex-wrap: wrap;
+
 }
 
+.-our-projects-photo li {
+  margin-right: 30px;
+}
 
 .-our-projects-photo h1 {
   font-weight: 700;
