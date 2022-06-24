@@ -12,6 +12,7 @@ html {
 section {
   padding-top: 94px;
   padding-bottom: 94px;
+
 }
 
 /*--------------------header--------------------*/
@@ -24,14 +25,20 @@ section {
   --additional-color: #2f303a;
   --background-color: #ffffff;
 }
-
-.container {
+body{
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding left: 15px;
   padding right: 15px
 }
+/*---------.header
+{
+  margin-left: auto;
+  margin-right: auto;
+  padding left: 15px;
+  padding right: 15px
+}------*/
 
 .nav-list {
   display: flex;
@@ -55,12 +62,10 @@ section {
 }
 
 .nav-link {
-  padding-left: 331px;
 }
 
 .header-name {
   margin-right: 93px;
-  margin-left: 215px;
 }
 
 .nav-contacts-item:last-child {
@@ -102,6 +107,7 @@ a {
 }
 
 /*--------------------шапка--------------------*/
+
 .header-name,
 .new-header-name {
   font-family: "Raleway";
@@ -215,6 +221,7 @@ a[title-2] {
 }
 
 /*----------Section Features----------------*/
+
 .section-features-item {
   padding-right: 30px
 }
@@ -255,6 +262,7 @@ a[title-2] {
 }
 
 /*-----section What we do-----*/
+
 .section-whadwedo-list {
   display: flex;
   align-items: center;
@@ -470,7 +478,6 @@ p {
 
 .NEW-header-name {
   margin-right: 93px;
-  margin-left: 215px;
 }
 
 
