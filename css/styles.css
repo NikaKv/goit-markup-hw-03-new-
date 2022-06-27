@@ -6,12 +6,13 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 section {
   padding-top: 94px;
   padding-bottom: 94px;
+
 
 }
 
@@ -26,7 +27,7 @@ section {
   --background-color: #ffffff;
 }
 body{
-  width: 1200px;
+  width: 1230px;
   margin-left: auto;
   margin-right: auto;
   padding left: 15px;
@@ -42,6 +43,10 @@ body{
 
 .nav-list {
   display: flex;
+}
+
+.h{
+  box-sizing: border-box;
 }
 
 .container-1 {
@@ -166,10 +171,10 @@ a[title-2] {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  margin-top: 0px;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: center ;
   padding-left: 452px;
   padding-right: 452px;
 }
@@ -402,6 +407,28 @@ a[title-2] {
   color: var(--brand-color);
 }
 
+.container-6, .container-10{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 0px;
+  margin-left: 215px;
+}
+
+
+.footer-address-item,.footer-address-link,.new-footer-address-item,.new-footer-address-link{
+  margin-bottom: 9px;
+  padding-left: 0px;
+  margin-top: content: 9px;
+}
+
+.footer-address-list, .new-footer-address-list{
+  padding-left: 0px;
+}
+
+.footer-name{
+  margin-bottom: ;
+}
+
 /*--------------------PORTFOLIO-----------------*/
 h1,
 h2,
@@ -414,6 +441,7 @@ p {
 }
 
 /*------------------buttons------------*/
+
 .btn-portfolio:hover,
 .btn-portfolio:focus {
   background-color: var(--brand-color);
@@ -492,11 +520,14 @@ p {
 .container-9 {
   display: flex;
   flex-wrap: wrap;
-
 }
 
+
 .-our-projects-photo li {
-  margin-right: 30px;
+  margin-right: 30px; 
+}
+.-our-projects-photo li:nth-child(3n){
+  margin-right: 0px;
 }
 
 .-our-projects-photo h1 {
@@ -517,6 +548,7 @@ p {
 /*-----Portfolio-footer-----*/
 .new-footer {
   background-color: var(--additional-color);
+
 }
 
 .new-footer-address-link a:hover,
