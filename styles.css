@@ -9,12 +9,7 @@ html {
   box-sizing: border-box;
 }
 
-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 
-
-}
 
 /*--------------------header--------------------*/
 
@@ -26,56 +21,7 @@ section {
   --additional-color: #2f303a;
   --background-color: #ffffff;
 }
-body{
-  width: 1230px;
-  margin-left: auto;
-  margin-right: auto;
-  padding left: 15px;
-  padding right: 15px
-}
-/*---------.header
-{
-  margin-left: auto;
-  margin-right: auto;
-  padding left: 15px;
-  padding right: 15px
-}------*/
 
-.nav-list {
-  display: flex;
-}
-
-.h{
-  box-sizing: border-box;
-}
-
-.container-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav-list li {
-  margin-right: 50px;
-  display: block;
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
-.nav-list .nav-link+.nav-link-phone {
-  margin-left: 50px;
-}
-
-.nav-link {
-}
-
-.header-name {
-  margin-right: 93px;
-}
-
-.nav-contacts-item:last-child {
-  margin-right: 0px;
-}
 
 h1,
 h2,
@@ -85,13 +31,6 @@ h5,
 h6,
 p {
   margin: 0px;
-}
-
-ul {
-  margin: 0px;
-  padding left: 0px;
-  list-style: none;
-  text-decoration: none
 }
 
 .page,
@@ -159,24 +98,12 @@ a[title-2] {
   top: 80px;
 }
 
-.section-features-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 30px;
-}
-
 .section-main-title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  text-align: center ;
-  padding-left: 452px;
-  padding-right: 452px;
 }
 
 /*--------------------Кнопка "Заказать"-----------*/
@@ -185,8 +112,6 @@ a[title-2] {
   display: inline-block;
   color: var(--background-color);
   border: 1px solid transparent;
-  text-align: center;
-  margin-bottom: 200px;
 }
 
 .btn-1-gen {
@@ -198,7 +123,6 @@ a[title-2] {
   border-radius: 4px;
   border-color: var(--background-color);
   border: 1px solid transparent;
-  margin-right: 8px;
 }
 
 .btn-1:hover,
@@ -227,17 +151,6 @@ a[title-2] {
 
 /*----------Section Features----------------*/
 
-.section-features-item {
-  padding-right: 30px
-}
-
-.section-features-item :last-child {
-  padding-right: 0px;
-}
-
-.section-features-item :first-child {
-  padding left: 215px
-}
 
 .section-features-title h3 {
   color: var(--title-color);
@@ -245,16 +158,8 @@ a[title-2] {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  margin top: 0px;
-  margin bottom: 0px
 }
 
-.section-features-title-1,
-.section-features-title-2,
-.section-features-title-3,
-.section-features-title-4 {
-  margin-bottom: 10px;
-}
 
 .text-attention,
 .text-timemanagement,
@@ -268,17 +173,6 @@ a[title-2] {
 
 /*-----section What we do-----*/
 
-.section-whadwedo-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.section-whadwedo-photo-1,
-.section-whadwedo-photo-2 {
-  margin-right: 30px;
-}
 
 
 .section-whadwedo-title {
@@ -288,7 +182,7 @@ a[title-2] {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
-  padding-bottom: 50px;
+
 }
 
 
@@ -302,16 +196,6 @@ a[title-2] {
 /*-----section OurTeam-----*/
 .section-ourteam {
   background-color: #f5f4fa;
-}
-
-.container-5 ul {
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-
-.section-ourteam-list li {
-  margin-right: 30px;
 }
 
 .section-ourteam-title {
@@ -407,38 +291,8 @@ a[title-2] {
   color: var(--brand-color);
 }
 
-.container-6, .container-10{
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 0px;
-  margin-left: 215px;
-}
-
-
-.footer-address-item,.footer-address-link,.new-footer-address-item,.new-footer-address-link{
-  margin-bottom: 9px;
-  padding-left: 0px;
-  margin-top: content: 9px;
-}
-
-.footer-address-list, .new-footer-address-list{
-  padding-left: 0px;
-}
-
-.footer-name{
-  margin-bottom: ;
-}
 
 /*--------------------PORTFOLIO-----------------*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0px;
-}
 
 /*------------------buttons------------*/
 
@@ -463,49 +317,7 @@ p {
 .btn-1,
 .btn-portfolio,
 .btn-portfolio-1 {
-  cursor: pointer;
-}
-
-.container-7 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.new-nav-list li {
-  margin-right: 50px;
-  display: block;
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
-.new-nav-list,
-.btn,
-.btn-portfolio-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-
-
-.NEW-nav-list .NEW-nav-link+.new-nav-link-1 {
-  margin-left: 50px;
-
-}
-
-.container-8 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 56px;
-}
-
-.NEW-nav-link {
-  padding-left: 331px;
-}
-
-.NEW-header-name {
-  margin-right: 93px;
+cursor: pointer;
 }
 
 
@@ -514,20 +326,6 @@ p {
 
 .-our-projects-photo>li {
   background-color: var(--background-color);
-}
-
-
-.container-9 {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-.-our-projects-photo li {
-  margin-right: 30px; 
-}
-.-our-projects-photo li:nth-child(3n){
-  margin-right: 0px;
 }
 
 .-our-projects-photo h1 {
